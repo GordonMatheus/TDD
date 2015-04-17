@@ -2,9 +2,15 @@ package iut.tdd;
 
 public class Convert {
 	public static String num2text(String input) {
-		return null;
+		if(input.equals("0")){
+			return "zéro";
+		}
+		return "";
 	}
 	public static String text2num(String input) {
-		return null;
+		if(input.equals("zéro")){
+			return "0";
+		}
+		return "";
 	}
 }
